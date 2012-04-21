@@ -1,0 +1,43 @@
+﻿<Project>
+	<Version>1.0</Version>
+	<FileID>11c68fb0-b25d-429e-8cb8-0ce0be0f05ba</FileID>
+	<Files>
+		<File ReferenceName="" Build="0">Startup.pfs</File>
+		<File ReferenceName="Call-MainForm_pff" Build="0">MainForm.pff</File>
+		<File ReferenceName="Call-Global_ps1" Build="0" CommandExtension="True">Globals.ps1</File>
+	</Files>
+	<OpenFiles>
+		<File>Startup.pfs</File>
+		<File>Globals.ps1</File>
+		<File>MainForm.pff</File>
+	</OpenFiles>
+	<Packager>
+		<General>
+			<PackageName/>
+			<PackageIcon/>
+			<ManifestCreation>1</ManifestCreation>
+			<CustomManifest/>
+			<DeleteDataFiles>0</DeleteDataFiles>
+			<Platform>-1</Platform>
+			<RunSTA>0</RunSTA>
+		</General>
+		<Security>
+			<Username/>
+			<Password/>
+			<SignPackage>False</SignPackage>
+			<Certificate/>
+			<CertificatePassword/>
+		</Security>
+		<Version>
+			<FileVersion/>
+			<ProductVersion/>
+			<ProductName/>
+			<Description/>
+			<Company/>
+			<Copyright/>
+			<InternalName/>
+			<OriginalFileName/>
+			<Comment/>
+		</Version>
+	</Packager>
+</Project>
