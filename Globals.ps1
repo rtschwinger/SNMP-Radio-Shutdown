@@ -33,6 +33,8 @@ $shutdownDT = @(2012,1,1,1,1,0,10,2)
 $shutdownOIDs = @($settings.yearOID,$settings.monthOID,$settings.dayOID,$settings.hourOID,$settings.minuteOID,$settings.secondOID,$settings.lotOID,$settings.schedOID)
 $sdRadioIPAddrs = @{}
 
+
+
 $baseName = $settings[15]
 $radioWait = 0
 $shutdownlenChosen = $false

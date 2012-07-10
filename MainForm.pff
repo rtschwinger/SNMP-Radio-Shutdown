@@ -9,6 +9,7 @@
     <Property name="MaximizeBox">False</Property>
     <Property name="MinimizeBox">False</Property>
     <Property name="Name">MainForm</Property>
+    <Property name="SizeGripStyle">Hide</Property>
     <Property name="StartPosition">CenterScreen</Property>
     <Event name="Load">OnLoadFormEvent</Event>
     <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="labelWaitBetweenRadiosSec" children="Controls">
@@ -461,9 +462,8 @@ $sysRadioTxOffRequestcb_SelectedIndexChanged={
 	$requestTypeChosen = $true
 	AllSet
 }
-
 ]]></Code>
-  <Mode>0</Mode>
+  <Mode>1</Mode>
   <Assemblies>
     <Assembly>System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll</Assembly>
     <Assembly>System.Management.Automation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35</Assembly>
